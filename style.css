@@ -1,0 +1,121 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: hsl(27, 66%, 92%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+.d1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 100%;
+}  
+.header{
+    background-color: hsl(10, 79%, 65%);
+    width: 400px;
+    height: 100px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+
+}
+.container{
+    margin-top: 30px;
+    display: flex;     
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.chart {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    text-align: center;
+    justify-content: center;
+}
+.mc{
+    height: 30px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+}
+.tc{
+    height:80px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+}
+.thc{
+    height: 60px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+}
+button{
+    border: 0px;
+}
+.chart button{
+    width: 40px;
+}
+.wc{
+    height: 100px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+}
+.fc{
+    height: 40px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+}
+.sc{
+    height: 90px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+}
+.suc{
+    height: 50px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 3px;
+}
+.line{
+width: 100%;
+height: 1px;
+background-color: hsl(28, 10%, 53%);
+}
+.footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.d2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+}
+.p2{
+    color: gray;
+}
+.balance2{
+    color: hsl(25, 47%, 15%);
+    font-size: 40px;
+}
+.per{
+    color: hsl(25, 47%, 15%);
+}
+.p3{
+    color: gray;
+}
+button:hover{
+    background-color: hsl(186, 34%, 60%);
+}
