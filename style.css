@@ -95,6 +95,7 @@ background-color: hsl(28, 10%, 53%);
     background-color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .d2{
     display: flex;
@@ -102,6 +103,7 @@ background-color: hsl(28, 10%, 53%);
     flex-direction: column;
     align-items: start;
     text-align: start;
+    gap: -100px;
 }
 .p2{
     color: gray;
@@ -109,13 +111,39 @@ background-color: hsl(28, 10%, 53%);
 .balance2{
     color: hsl(25, 47%, 15%);
     font-size: 40px;
+    font-weight: 700;
+    margin: 0px;
 }
 .per{
     color: hsl(25, 47%, 15%);
+    font-weight: 700;
 }
 .p3{
     color: gray;
 }
 button:hover{
     background-color: hsl(186, 34%, 60%);
+}
+
+.column{
+    position: relative;
+}
+  
+.number {
+    position: absolute;
+    top: -45px;
+    left: -15px;
+    background-color: black;
+    width: 70px;
+    height:30px;
+    color: white;
+    display: none;
+    border-radius: 5px;
+    z-index: 101;
+
+  }
+
+.column:hover .number{
+
+    display: block;
 }
